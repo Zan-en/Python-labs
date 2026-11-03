@@ -24,3 +24,10 @@ for product in producty:
 
 
 print(f"Самым прибыльным товаром можно считать - {luchsh_product}, Общая сумма товара: {max_summ}")
+
+
+unique_elements = set()
+for product in producty:
+    unique_elements.add(product["name"])
+
+print(f"Кол-во уникальных элементов - {len(unique_elements)}")
